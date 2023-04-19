@@ -1,0 +1,36 @@
+.footer {
+    background: #1B3A61;
+    padding: 40px 0;
+    color: #ffffff;
+    .footer-col {
+        max-width: 400px;
+        h2 {
+            font-size: 22px;
+            font-weight: 500;
+        }
+        img {
+            width: 140px;
+            margin-top: 25px;
+        }
+        ul {
+            margin-bottom: 0;
+            li {
+                list-style: none;
+                padding-bottom: 7px;
+                strong {
+                    text-transform: uppercase;
+                    font-size: 14px;
+                }
+                p {
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

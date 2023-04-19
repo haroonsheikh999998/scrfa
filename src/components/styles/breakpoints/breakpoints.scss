@@ -1,0 +1,409 @@
+/* Using SCSS variables to store breakpoints */
+
+$breakpoint-laptop: 1100px;
+@media (max-width: $breakpoint-laptop) {
+  .navbar-menu {
+    .nav-menudata {
+      .nav-databox {
+        .databox-itm {
+          .databox-heading {
+            h2 {
+              font-size: 17px;
+            }
+          }
+          ul {
+            padding: 12px 0;
+            li {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    .navbar-menu {
+      .navMenu-inner {
+        ul {
+          li {
+            padding: 10px 0;
+            a {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+$breakpoint-tablet: 991px;
+@media (max-width: $breakpoint-tablet) {
+  .navbar {
+    .nav-box {
+      .navlogo-main {
+        .nav-logo {
+          img {
+            width: 55px;
+          }
+        }
+        .nav-lg-text {
+          padding-left: 12px;
+          h2 {
+            font-size: 14px;
+          }
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+      .navbar-menu-right {
+        display: none;
+      }
+    }
+  }
+
+  .hero-section {
+    .overly {
+      .hero-text {
+        p {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+
+  .data-structure-main {
+    .data-item {
+      padding: 20px 10px;
+      img {
+        width: 110px;
+        height: 60px;
+      }
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .popular-services {
+    .popular-links {
+      .poplink {
+        width: 95%;
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .home-updates {
+    .calendar-events {
+      .calender-updates {
+        .calender-itm {
+          .date-box {
+            height: 46px;
+            font-size: 13px;
+            strong {
+              font-size: 17px;
+            }
+          }
+          .calender-itm-text {
+            h4 {
+              font-size: 16px;
+            }
+            p {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    .footer-col {
+      h2 {
+        font-size: 18px;
+      }
+      img {
+        width: 120px;
+        margin-top: 12px;
+      }
+      ul {
+        padding-left: 0;
+      }
+    }
+  }
+
+  .navbar-menu {
+    .nav-menudata {
+      .nav-databox {
+        .databox-itm {
+          .databox-heading {
+            h2 {
+              font-size: 14px;
+            }
+          }
+          ul {
+            li {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+    .navbar-menu {
+      .navMenu-inner {
+        ul {
+          padding: 0 9%;
+          li {
+            padding: 10px 0;
+            a {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+$breakpoint-tablet-small: 767px;
+@media (max-width: $breakpoint-tablet-small) {
+  .navbar {
+    .nav-box {
+      width: 85%;
+    }
+    .menu-icon {
+      width: 65px;
+      button {
+        font-size: 25px;
+      }
+    }
+  }
+
+  .data-structure-main {
+    .data-item {
+      height: auto;
+      margin-bottom: 30px;
+    }
+  }
+
+  .home-updates {
+    .calendar-events {
+      padding-top: 100px;
+    }
+  }
+
+  .footer {
+    .footer-col {
+      margin: 25px 0;
+    }
+  }
+
+  .navbar-menu {
+    top: 80px;
+    .navMenu-inner {
+       ul {
+        li{
+            a {
+                font-size: 14px;
+            }
+        }
+       }
+    }
+    .nav-menudata {
+      .nav-databox {
+        .databox-itm {
+          .databox-heading {
+            h2 {
+              font-size: 14px;
+            }
+          }
+          ul {
+            li {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+
+
+  }
+
+
+}
+
+$breakpoint-mobile: 599px;
+@media (max-width: $breakpoint-mobile) {
+  .popular-services {
+    .main-heading {
+      h2 {
+        font-size: 22px;
+      }
+      .popular-heading-border {
+        height: 4px;
+      }
+    }
+  }
+}
+
+$breakpoint-bootmobile: 575px;
+@media (max-width: $breakpoint-bootmobile) {
+    .navbar-menu {
+        .nav-menudata {
+            padding: 20px 15px;
+            flex-wrap: wrap;
+            .nav-databox {
+                width: 100%;
+            }
+        }
+        .navbar-menu {
+            top: 80px;
+          .navMenu-inner {
+            ul {
+                padding: 0 10px;
+            }
+          }
+        }
+    
+      }
+}
+
+$breakpoint-mobile-small: 499px;
+@media (max-width: $breakpoint-mobile-small) {
+  .navbar {
+    .menu-icon {
+      width: 50px;
+      button {
+        font-size: 20px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+    .nav-box {
+      width: 83%;
+      .navlogo-main {
+        padding-left: 10px;
+        .nav-lg-text {
+          padding-left: 10px;
+          h2 {
+            font-size: 12px;
+          }
+          p {
+            font-size: 10px;
+          }
+        }
+        .nav-logo {
+          img {
+            width: 45px;
+          }
+        }
+      }
+    }
+  }
+
+  .hero-section {
+    .overly {
+      .hero-text {
+        padding: 0 10px;
+        p {
+          font-size: 18px;
+        }
+        .banner-searchbar {
+          input {
+            width: 205px;
+          }
+          button {
+            width: 87px;
+          }
+        }
+      }
+    }
+  }
+
+  .popular-services {
+    .main-heading {
+      h2 {
+        font-size: 18px;
+      }
+    }
+    .popular-links {
+      .poplink {
+        padding-bottom: 15px;
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  .home-updates {
+    .recent-updates {
+      .rec-item {
+        p {
+          font-size: 13px;
+          .update-noti {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+    .home-updates {
+      .calendar-events {
+        .updates-heading {
+          h2 {
+            font-size: 22px;
+          }
+        }
+        .calender-updates {
+          .calender-itm {
+            .calender-itm-text {
+              h4 {
+                font-size: 15px;
+              }
+              p {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+$breakpoint-mobile-xsm: 375px;
+@media (max-width: $breakpoint-mobile-xsm) {
+  .navbar {
+    .nav-box {
+      .navlogo-main {
+        padding-left: 5px;
+        .nav-logo {
+          img {
+            width: 43px;
+          }
+        }
+        .nav-lg-text {
+          display: none;
+          h2 {
+            font-size: 10px;
+          }
+          p {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+

@@ -1,0 +1,505 @@
+/* Using SCSS variables to store breakpoints */
+@media (max-width: 1100px) {
+
+  h1 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 42px !important;
+  }
+
+  h2 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 32px !important;
+    color: #1B3A61
+  }
+
+  h3 {
+    font-family: 'Roboto Slab', serif !important;
+    font-weight: bold !important;
+    font-size: 28px !important;
+  }
+
+  h4 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 24px !important;
+    text-transform: uppercase !important;
+  }
+
+  h5 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    text-decoration: none !important;
+  }
+
+  .block-title {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 54px !important;
+  }
+
+  a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #3068AD;
+    font-size: 18px !important;
+    text-decoration: none !important;
+  }
+
+  p {
+    font-family: 'Roboto Slab', serif !important;
+    font-size: 22px !important;
+    font-weight: 300 !important;
+  }
+
+  .navbar-menu .nav-menudata .nav-databox .databox-itm .databox-heading h2 {
+    font-size: 17px;
+  }
+
+  .navbar-menu .nav-menudata .nav-databox .databox-itm ul {
+    padding: 12px 0;
+  }
+
+  .navbar-menu .nav-menudata .nav-databox .databox-itm ul li {
+    font-size: 14px;
+  }
+
+  .navbar-menu .navbar-menu .navMenu-inner ul li {
+    padding: 10px 0;
+  }
+
+  .navbar-menu .navbar-menu .navMenu-inner ul li a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+
+  h1 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 42px !important;
+  }
+
+  h2 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 32px !important;
+    color: #1B3A61
+  }
+
+  h3 {
+    font-family: 'Roboto Slab', serif !important;
+    font-weight: bold !important;
+    font-size: 28px !important;
+  }
+
+  h4 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 24px !important;
+    text-transform: uppercase !important;
+  }
+
+  h5 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    text-decoration: none !important;
+  }
+
+  .block-title {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 54px !important;
+  }
+
+  a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #3068AD;
+    font-size: 18px !important;
+    text-decoration: none !important;
+  }
+
+  p {
+    font-family: 'Roboto Slab', serif !important;
+    font-size: 22px !important;
+    font-weight: 300 !important;
+  }
+
+  .navbar .nav-box {
+    width: 80% !important;
+  }
+
+  .navbar .nav-box .navlogo-main .nav-logo img {
+    width: 55px;
+  }
+
+  .navbar .nav-box .navlogo-main .nav-lg-text {
+    padding-left: 12px;
+  }
+
+  .navbar .nav-box .navlogo-main .nav-lg-text h2 {
+    font-size: 14px;
+  }
+
+  .navbar .nav-box .navlogo-main .nav-lg-text p {
+    display: none !important;
+  }
+
+  .navbar .nav-box .navbar-menu-right {
+    display: none;
+  }
+
+  .hero-section .overly .hero-text p {
+    font-size: 22px;
+  }
+
+  .data-structure-main .data-item {
+    display: flex;
+    padding: 20px 10px;
+  }
+
+  .data-structure-main .data-item img {
+    width: 110px;
+    height: 60px;
+  }
+
+  .data-structure-main .data-item a {
+    font-size: 14px;
+  }
+
+  .popular-services .popular-links .poplink {
+    width: 95%;
+  }
+
+  .popular-services .popular-links .poplink a {
+    font-size: 15px;
+  }
+
+  .home-updates .calendar-events .calender-updates .calender-itm .date-box {
+    height: 46px;
+    font-size: 13px;
+  }
+
+  .home-updates .calendar-events .calender-updates .calender-itm .date-box strong {
+    font-size: 17px;
+  }
+
+  .home-updates .calendar-events .calender-updates .calender-itm .calender-itm-text h4 {
+    font-size: 16px;
+  }
+
+  .home-updates .calendar-events .calender-updates .calender-itm .calender-itm-text p {
+    font-size: 14px;
+  }
+
+  .footer .footer-col h2 {
+    font-size: 18px;
+  }
+
+  .footer .footer-col img {
+    width: 120px;
+    margin-top: 12px;
+  }
+
+  .footer .footer-col ul {
+    padding-left: 0;
+  }
+
+  .navbar-menu .nav-menudata .nav-databox .databox-itm .databox-heading h2 {
+    font-size: 14px;
+  }
+
+  .navbar-menu .nav-menudata .nav-databox .databox-itm ul li {
+    font-size: 12px;
+  }
+
+  .navbar-menu .navbar-menu .navMenu-inner ul {
+    padding: 0 9%;
+  }
+
+  .navbar-menu .navbar-menu .navMenu-inner ul li {
+    padding: 10px 0;
+  }
+
+  .navbar-menu .navbar-menu .navMenu-inner ul li a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  h1 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 42px !important;
+  }
+
+  h2 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 28px !important;
+    color: #1B3A61
+  }
+
+  h3 {
+    font-family: 'Roboto Slab', serif !important;
+    font-weight: bold !important;
+    font-size: 24px !important;
+  }
+
+  h4 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    text-transform: uppercase !important;
+  }
+
+  h5 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    text-decoration: none !important;
+  }
+
+  .block-title {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 54px !important;
+  }
+
+  a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #3068AD;
+    font-size: 18px !important;
+    text-decoration: none !important;
+  }
+
+  p {
+    font-family: 'Roboto Slab', serif !important;
+    font-size: 22px !important;
+    font-weight: 300 !important;
+  }
+
+  .navbar .nav-box {
+    width: 85% !important;
+    padding: 6px 0 0 !important;
+  }
+
+  .navbar .menu-icon {
+    width: 65px;
+  }
+
+  .navbar .menu-icon button {
+    padding: 9px 2px;
+    font-size: 25px;
+  }
+
+  .navbar .menu-icon button div {
+    font-size: 10px !important;
+  }
+
+  .data-structure-main .data-item {
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .home-updates .calendar-events {
+    padding-top: 100px;
+  }
+
+  .footer .footer-col {
+    margin: 25px 0;
+  }
+
+  .navbar-menu {
+    top: 70px !important;
+  }
+
+  .navbar-menu .navMenu-inner ul li a {
+    font-size: 14px;
+  }
+
+  .navbar-menu .nav-menudata .nav-databox .databox-itm .databox-heading h2 {
+    font-size: 14px;
+  }
+
+  .navbar-menu .nav-menudata .nav-databox .databox-itm ul li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 599px) {
+  .navbar .menu-icon button {
+    padding: 7px 2px !important;
+  }
+
+  .navbar-menu {
+    top: 59px !important;
+  }
+
+  .navbar .nav-box .navlogo-main .nav-logo img {
+    width: 58px;
+  }
+
+  .navbar .nav-box .navlogo-main .nav-lg-text {
+    padding-left: 10px;
+  }
+
+  .navbar .nav-box .navlogo-main .nav-lg-text h2 {
+    font-size: 12px !important;
+  }
+
+  .navbar .nav-box .navlogo-main .nav-lg-text p {
+    display: none !important;
+  }
+
+  .popular-services .main-heading h2 {
+    font-size: 20px !important;
+  }
+
+  .popular-services .main-heading .popular-heading-border {
+    height: 4px;
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar-menu .nav-menudata {
+    padding: 20px 15px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .navbar-menu .nav-menudata .nav-databox {
+    width: 100%;
+  }
+
+  .navbar-menu .navbar-menu {
+    top: 80px;
+  }
+
+  .navbar-menu .navbar-menu .navMenu-inner ul {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 499px) {
+  p{
+    font-size: 18px !important;
+  }
+  .navbar .menu-icon {
+    width: 50px;
+  }
+
+  .navbar .menu-icon button {
+    font-size: 20px;
+  }
+
+  .navbar .menu-icon p {
+    font-size: 10px;
+  }
+
+  .navbar .nav-box {
+    width: 83%;
+  }
+
+  .navbar .nav-box .navlogo-main {
+    padding-left: 10px;
+  }
+
+  .navbar .nav-box .navlogo-main .nav-lg-text {
+    padding-left: 10px;
+  }
+
+  .navbar .nav-box .navlogo-main .nav-lg-text h4 {
+    font-size: 15px !important;
+  }
+
+  .navbar .nav-box .navlogo-main .nav-lg-text p {
+    display: none !important;
+  }
+
+  .navbar .nav-box .navlogo-main .nav-logo img {
+    width: 45px;
+  }
+
+  .hero-section .overly .hero-text {
+    padding: 0 10px;
+  }
+
+  .hero-section .overly .hero-text p {
+    font-size: 18px;
+  }
+
+  .hero-section .overly .hero-text .banner-searchbar input {
+    width: 205px;
+  }
+
+  .hero-section .overly .hero-text .banner-searchbar button {
+    width: 87px;
+  }
+
+  .popular-services .main-heading h2 {
+    font-size: 18px;
+  }
+
+  .popular-services .popular-links .poplink {
+    padding-bottom: 15px;
+  }
+
+  .popular-services .popular-links .poplink a {
+    font-size: 15px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  .home-updates .recent-updates .rec-item p {
+    font-size: 13px;
+  }
+
+  .home-updates .recent-updates .rec-item p .update-noti {
+    font-size: 10px;
+  }
+
+  .home-updates .home-updates .calendar-events .updates-heading h2 {
+    font-size: 22px;
+  }
+
+  .home-updates .home-updates .calendar-events .calender-updates .calender-itm .calender-itm-text h4 {
+    font-size: 15px;
+  }
+
+  .home-updates .home-updates .calendar-events .calender-updates .calender-itm .calender-itm-text p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  p{
+    font-size: 18px !important;
+  }
+  .navbar .nav-box .navlogo-main {
+    padding-left: 5px;
+  }
+
+  .navbar .nav-box .navlogo-main .nav-logo img {
+    width: 43px;
+  }
+
+  .navbar .nav-box .navlogo-main .nav-lg-text h2 {
+    font-size: 10px;
+  }
+
+  .navbar .nav-box .navlogo-main .nav-lg-text p {
+    font-size: 8px;
+  }
+}
+
+/*# sourceMappingURL=breakpoints.css.map */

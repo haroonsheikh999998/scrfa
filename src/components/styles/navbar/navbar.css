@@ -1,0 +1,232 @@
+.navbar {
+  position: relative;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0;
+  -webkit-box-shadow: 0px 0px 5px #00000047;
+          box-shadow: 0px 0px 5px #00000047;
+  z-index: 999;
+}
+
+.navbar .menu-icon {
+  width: 90px;
+}
+
+.navbar .menu-icon button {
+  width: 100%;
+  background: #3068AD;
+  border: none;
+  color: #fff;
+  padding: 27px 2px;
+  font-size: 30px;
+  margin-top: 0;
+  height: auto;
+}
+
+.navbar .menu-icon button div {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.navbar .nav-box {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 0 0;
+}
+
+.navbar .nav-box .navlogo-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+}
+
+.navbar .nav-box .navlogo-main .nav-logo img {
+  width: 80px;
+}
+
+.navbar .nav-box .navlogo-main .nav-lg-text {
+  padding-left: 20px;
+}
+
+.navbar .nav-box .navlogo-main .nav-lg-text h4 {
+  text-transform: uppercase !important;
+  margin-bottom: 0;
+}
+
+.navbar .nav-box .navlogo-main .nav-lg-text p {
+  color: #415A7B;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.navbar .nav-box .navbar-menu-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .nav-box .navbar-menu-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 1.2rem;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.navbar .nav-box .navbar-menu-right ul li a {
+  color: #415A7B;
+  text-decoration: none;
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navbar .nav-box .navbar-menu-right .searchbar-icon {
+  color: #0074C1;
+  border: 1px solid #0074C1;
+  padding: 5px 9px;
+  border-radius: 3px;
+  font-size: 15px;
+}
+.searchbar-icon-active {
+  background-color: #0074C1;
+  color: #fff;
+  border: none;
+  padding: 5px 9px;
+  font-size: 15px;
+}
+
+.navbar-menu {
+  position: absolute;
+  top: 121px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background: #fff;
+}
+
+.navbar-menu .navMenu-inner {
+  background: #F3F6F9;
+  text-align: center;
+  height: 100%;
+}
+
+.navbar-menu .navMenu-inner ul {
+  list-style: none;
+  padding: 0 15%;
+}
+
+.navbar-menu .navMenu-inner ul li {
+  padding: 15px 0;
+  border-bottom: 1px solid #C3C3C3;
+}
+
+.navbar-menu .navMenu-inner ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #000;
+  font-weight: 600;
+}
+
+.navbar-menu .nav-menudata {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 20px 30px;
+
+}
+
+.databox-heading h3 {
+  color: #1B3A61;
+}
+
+.navbar-menu .nav-menudata .nav-databox .databox-itm .databox-heading .databox-border {
+  width: 58px;
+  height: 3px;
+  background: #8C6910;
+}
+
+.navbar-menu .nav-menudata .nav-databox .databox-itm ul {
+  list-style: none;
+  padding: 20px 0;
+  margin-bottom: 0;
+}
+.navbar-menu .nav-menudata .nav-databox .databox-itm ul li a{
+  font-size: 18px;
+  color: #666666;
+  font-weight: 500;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+.menu-div {
+  width: 490px;
+  position: absolute;
+  right: 70px;
+  top: 78px;
+  z-index: 999;
+  border: 1px solid #0074C1;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  background-color: #0074C1;
+  padding: .3rem 1rem;
+}
+.menu-div .banner-searchbar{
+  display: flex;
+  width: 100%;
+}
+
+.menu-div input {
+  width: 80%;
+  padding: .5rem;
+}
+.menu-div button {
+
+display: flex;
+gap: 10px;
+}
+.menu-div input:focus {
+ outline: none;
+}
+.menu-div button {
+  margin: 0;
+  border: 1.5px solid #fff;
+  background-color: #0074C1;
+
+}
+.search-bar .menu-search {
+  width: 380px;
+  height: 34px;
+  background-color: #0074C1;
+  border: none;
+  padding: 0px 10px;
+  margin: 0px
+}
+
+.search-bar {
+}
+/*# sourceMappingURL=navbar.css.map */
